@@ -10,7 +10,6 @@ class Times : public Module
   private:
 };
 
-
 void Times::setup_led_perfps(int hours,int minutes)
 {
   turn_screen(1,2,80,255,200,init_pos[X],init_pos[Y]);

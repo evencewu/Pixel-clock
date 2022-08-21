@@ -12,7 +12,11 @@ void setup() {
 }
  
 void loop () { 
-  times1.setup_led_perfps();
+  times1.setup_led_perfps(11,12);
   FastLED.show();          
   delay(10);       
 }
+
+ 
+
+ 
