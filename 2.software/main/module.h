@@ -7,7 +7,6 @@ class Module :public Screen
   public:
     int size_[2];
     int init_pos[2];
-    void setup_led_perfps();
     void turn_screen(int x,int y,int h,int s,int v,int dx,int dy);
   private:
   

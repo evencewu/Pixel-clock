@@ -25,7 +25,7 @@ class Screen
 
 void Screen::set_HSV(int x,int y,int h,int s,int v)
 {
-    leds[((x/8)*8+(8-y))*8+(x-1)%8] = CHSV (h,s,v);
+    leds[(((x-1)/8)*8+(8-y))*8+(x-1)%8] = CHSV (h,s,v);
 }
 
 #include "module.h"
